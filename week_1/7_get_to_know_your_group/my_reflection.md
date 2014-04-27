@@ -13,7 +13,7 @@ My favorite websites are Udacity, Engadget, and Reddit. You can check out my wir
 
 My learning style is multimodal (Visual: 9, Aural: 10, Read/Write: 8, Kinesthetic: 11), but like Spencer, I feel like I do learn best by doing. My thinking style is also Abstract Sequential, with Concrete Random just a couple points behind. This indicates that I enjoy theory, abstract thought, and experimentation. I guess that sounds like me!
 
-Coincidentally, I had set up a blog with a custom domain on my GitHub pages page just a week before Phase 0, so I've had to host all my projects in a subfolder. You can find all my week 1 projects here (though I'm still working on my cultural blog post): http:/andrewada.ms/dbc_blog
+Coincidentally, I had set up a blog with a custom domain on my GitHub pages page just a week before Phase 0, so I've had to host all my projects in a subfolder. You can find all my week 1 projects here (though I'm still working on my cultural blog post): http://andrewada.ms/dbc_blog
 
 Reflection file: https://github.com/andrewjadams3/phase_0_unit_1/blob/master/week_1/7_get_to_know_your_group/my_reflection.md
 
