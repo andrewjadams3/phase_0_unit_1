@@ -8,7 +8,8 @@
 body {
 	font-family: 'Roboto', 'sans-serif';
 	font-size: 16px;
-	background-color: gray;
+	background-color: #ddd;
+	background-size: cover;
 }
 
 h1 {
@@ -26,26 +27,49 @@ h2 {
 h3 {
 	font-size: 16px;
 	font-weight: 800;
-	margin: 20px 0 5px 0;
+	margin: 40px 0px 15px 0px;
 }
 
 p {
 	color: #666;
-	margin: 0 0 5px 0;
+	margin: 10px 0px;
+	line-height: 22px;
 }
 
 .container {
 	margin: 0px auto;
 	width: 700px;
-	background-color: white;
+	background-color: rgba(256,256,256,0.6);
 	padding: 40px;
 }
 
 header {
 	margin: 0px 0px 10px 0px;
+	padding: 0px 0px 20px 0px;
 	border-bottom: 5px solid #000;
 }
 
-section #content {
+#date {
+	font-size: 13px;
+	font-weight: 400;
+	color: #999;
+	margin: 9px 0px 0px 0px;
+}
 
+#byline {
+	font-size: 15px;
+	font-weight: 400;
+	color: #999;
+}
+
+.fleft {
+	float: left;
+}
+
+.fright {
+	float: right;
+}
+
+.cfloat {
+	clear: both;
 }
