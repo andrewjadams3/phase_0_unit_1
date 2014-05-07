@@ -53,7 +53,7 @@ Shows the state of the working directory. Allows you to see which files have bee
 
 - Fetch changes
 	- git clone https://github.com/user/repo.git
-	- git remote add upstream ttps://github.com/*original_user*/repo.git
+	- git remote add upstream https://github.com/**original_user**/repo.git
 	- git fetch upstream
 	- get merge upstream/master
 
