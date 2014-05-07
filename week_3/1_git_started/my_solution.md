@@ -44,7 +44,26 @@ Shows the state of the working directory. Allows you to see which files have bee
 ## Release 4: Git Workflow
 
 - Push files to a remote repository
+	- git init
+	- git add .
+	- git commit -m "Initial commit"
+	- create remote repository on GitHub
+	- git remote add origin https://github.com/user/repo.git
+	- git push origin master
+
 - Fetch changes
+	- git clone https://github.com/user/repo.git
+	- git remote add upstream ttps://github.com/*original_user*/repo.git
+	- git fetch upstream
+	- get merge upstream/master
+
 - Commit locally
+	- git add `<file>`
+	- git commit -m "Message"
 
 ## Release 5: Reflection
+It was beneficial to review this list of git commands. I have become accustomed to using the common commands needed to commit/fetch changes, push changes, and add remotes. Reviewing the commands that I don't use as often helped solidify my understanding of their purposes. For example, I was unaware of the various ways reset could be used to roll back commits locally, or to simply unstage files.
+
+[The Atlassian Git Tutorials](https://www.atlassian.com/git/tutorial/git-basics) were quite helpful when reviewing commands because of their great illustrations and example situations.
+
+After completing this challenge, I feel quite comfortable with most commands. I am still a little hesitant when it comes to resetting changes or resolving conflicts, but I'm confident that more experience will come soon.
