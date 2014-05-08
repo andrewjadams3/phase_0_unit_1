@@ -1,39 +1,46 @@
-// I paired [by myself, with:] on this challenge.
+// I worked on this challenge [by myself]
 
 
 
 
 // Pseudocode
-// 
-// 
-// 
-// 
+//
+// secret number = 7
+// password = "just open the door"
+// allowed in = false
+// members = [john, billy, jim, mary]
 
 
 // __________________________________________
 // Write your code below.
 
-
-
-
-
-
-
-// __________________________________________
-// Refactored Code: Include a refactored version (or justification of your original code) here. 
-
-
-
+var secretNumber = 7;
+var password = "just open the door";
+var allowedIn = false;
+var members = ["John", "Billy", "Jim", "Mary"];
 
 
 // __________________________________________
-// Reflection: Use the reflection guidelines to write a reflection here. 
-// 
-// 
-// 
-// 
-// 
-// 
+// Refactored Code: Include a refactored version (or justification of your
+// original code) here.
+//
+//  I believe the code is already as concise as it needs to be. There are only
+// four lines of code, and each line helps mulitple tests pass. There is no
+// repeated code, and each variable is readable and understandable. 
+
+
+// __________________________________________
+//  Reflection: Use the reflection guidelines to write a reflection here. 
+//
+// This challenge was very straightforward. I began by looking at each test and
+// determining what they were looking for. It became clear that each test was
+// looking for a specific variable with certain properties (typeof and value).
+// This allowed me to easily translate these tests into a small number of
+// passing variables. I already feel very comfortable with these aspects of
+// Javascript. I didn't learn anything particularly new or interesting, but it
+// was good practice to be able to write code for a specific set of tests. I'm
+// looking forward to experimenting more with TDD, and beginning to write my own
+// tests soon.
 
 
 // __________________________________________
