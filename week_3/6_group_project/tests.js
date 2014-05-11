@@ -1,3 +1,25 @@
+function sum(array){
+  var total = 0;
+  for(var i = 0; i < array.length; i++){
+    total += array[i];
+  }
+  return total;
+}
+
+function mean(array) {
+    var total = sum(array);
+    return(total/array.length);
+}
+
+function median(array){
+  var middle_number = Math.floor(array.length / 2);
+  if (array.length % 2 === 0){
+    return (array[middle_number - 1] + array[middle_number]) /2;
+  }else{
+    return array[middle_number];
+  }
+}
+
 // __________________________________________
 // Tests:  Do not alter code below this line.
 
